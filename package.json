@@ -1,0 +1,25 @@
+{
+  "name": "todo-lang",
+  "displayName": "Todo Language Support",
+  "description": "parse .todo extension file formats",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.104.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "",
+      "aliases": ["Todo", ""],
+      "extensions": [".todo"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "",
+      "scopeName": "source.todo",
+      "path": "./syntaxes/.tmLanguage.json"
+    }]
+  }
+}
